@@ -1,5 +1,4 @@
-const log = console.log.bind(console)
-
+const { log } = require('./utils')
 const longestCommonPrefix = (strs) => {
     if (strs.length === 0) {
         return ''
